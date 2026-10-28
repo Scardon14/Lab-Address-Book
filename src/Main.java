@@ -11,7 +11,10 @@ public class Main {
         agenda.agregarContacto(
                 new Contacto("Gabriela", "3003333333", "gabriela@gmail.com")
         );
+        System.out.println("\n=== CONTACTOS AGREGADOS ===");
+        agenda.listarContactos();
         // Intentar agregar un contacto con nombre duplicado
+        System.out.println("\n=== INTENTAR AGREGAR UN CONTACTO CON NOMBRE DUPLICADO ===");
         agenda.agregarContacto(
                 new Contacto("Ana", "3119999999", "ana2@gmail.com")
         );
